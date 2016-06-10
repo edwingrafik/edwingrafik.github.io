@@ -2,7 +2,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                  <li>&copy
+                  <ul class="element.style">&copy
                     <a href="http://edwingrafik.github.io/start/" target="_top">
       {% assign thisyear = site.time | date: "%Y" %}
       {% if site.first_published %}
@@ -12,7 +12,7 @@
       {{ thisyear }}
       {% if site.owner %}{{ site.owner }}{% else %}{{ site.title }}{% endif %}
     </a>
-    </li>
+    </ul>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
