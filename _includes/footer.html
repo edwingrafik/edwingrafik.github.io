@@ -2,7 +2,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; {{ site.title }} 2014</span>
+                    <a href="http://edwingrafik.github.io/myblog/" target="_top">
+      {% assign thisyear = site.time | date: "%Y" %}
+      {% if site.first_published %}
+        {% capture diff %}{{ site.first_published | minus:thisyear }}{% endcapture %}
+        {% if diff contains '-' %}{{ site.first_published }},{% endif %}
+      {% endif %}
+      {{ thisyear }}
+      {% if site.owner %}{{ site.owner }}{% else %}{{ site.title }}{% endif %}
+    </a>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
