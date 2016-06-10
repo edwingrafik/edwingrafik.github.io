@@ -8,12 +8,25 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                  <form class="6u 12u$(xsmall)" action="//formspree.io/edwingawron@gmail.com" method="POST">
-									<input type="text" name="name" value placeholder="imię">
-									<input type="email" name="_replyto" value placeholder="email">
-									<input type="text" name="message" value placeholder="Twoja wiadomość">
-									<input type="submit" value="Wyślij">
-								</form>
+                    <form name="sentMessage" id="contactForm" novalidate action="//formspree.io/edwingawron@gmail.com" method="POST">
+                      <div class="row">
+                          <div class="col-md-6">
+                            <div class="control-group form-group">
+                              <input type="text" name="name" value placeholder="imię">
+                            </div>
+                            <div class="control-group form-group">
+                              <input type="email" name="_replyto" value placeholder="email">
+                            </div>
+                            <div class="control-group form-group">
+                              <input type="text" name="message" value placeholder="Twoja wiadomość">
+                            </div>
+                            <div class="control-group form-group">
+                              <input type="submit" value="Wyślij">
+                            </div>
+                      </div>
+                    </div>
+								    </form>
+                
                     <form name="sentMessage" id="contactForm" novalidate>
                         <div class="row">
                             <div class="col-md-6">
