@@ -1,7 +1,6 @@
 ---
-title: Round Icons
+title: Post01
 subtitle: Graphic Design
-layout: default
 modal-id: 6
 date: 2014-07-15
 img: roundicons.png
