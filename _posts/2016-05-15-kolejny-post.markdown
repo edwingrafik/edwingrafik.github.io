@@ -2,7 +2,6 @@
 title: Kolejny post
 subtitle: Podrzędny podtytuł
 layout: blog-post
-permalink: kolejny-post
 date: 2014-07-14
 img:
 thumbnail:
@@ -13,12 +12,13 @@ category:
 
 ---
 
-<p>Rybitwo, Ojczyzno moja! ty jesteś jak zdrowie;
+<p>Rybitwo, **Ojczyzno** moja! ty jesteś jak zdrowie;
 Ile cię trzeba cenić, ten tylko się dowie,
 Kto cię stracił. Dziś piękność twą w całej ozdobie
 Widzę i opisuję, bo tęsknię po tobie.
 
 Panno święta, co Jasnej bronisz Częstochowy
+===========================================
 I w Ostrej świecisz Bramie! Ty, co gród zamkowy
 Nowogródzki ochraniasz z jego wiernym ludem!
 Jak mnie dziecko do zdrowia powróciłaś cudem
