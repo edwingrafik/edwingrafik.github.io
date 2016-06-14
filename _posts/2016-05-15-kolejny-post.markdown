@@ -1,7 +1,6 @@
 ---
 title: Kolejny post
 subtitle: Website Design
-layout: blog-post
 permalink: /kolejny-post/
 modal-id: 5
 date: 2014-07-14
