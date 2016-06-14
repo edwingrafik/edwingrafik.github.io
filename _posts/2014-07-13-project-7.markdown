@@ -3,6 +3,7 @@ title: Gdzie ten kot
 subtitle: Graphic Design
 layout: default
 permalink: testy-post
+published: false
 modal-id: 6
 date: 2014-07-15
 img: roundicons.png
