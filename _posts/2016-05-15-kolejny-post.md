@@ -5,7 +5,7 @@ layout: blog-post
 permalink: /kolejny-post/
 comments: true
 date: 2014-07-14
-img:
+img: bg.jpg
 thumbnail:
 alt: image-alt
 project-date: April 2014
