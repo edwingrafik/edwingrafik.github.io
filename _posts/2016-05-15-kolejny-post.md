@@ -13,7 +13,7 @@ category:
 
 ---
 
-<p>Rybitwo, **Ojczyzno** moja! ty jesteś jak zdrowie;
+Rybitwo, **Ojczyzno** moja! ty jesteś jak zdrowie;
 Ile cię trzeba cenić, ten tylko się dowie,
 Kto cię stracił. Dziś piękność twą w całej ozdobie
 Widzę i opisuję, bo tęsknię po tobie.
@@ -37,4 +37,4 @@ Gdzie bursztynowy świerzop, gryka jak śnieg biała,
 Gdzie panieńskim rumieńcem dzięcielina pała,
 A wszystko przepasane jakby wstęgą, miedzą
 Zieloną, na niej zrzadka ciche grusze siedzą.
-Zobacz też</p>
+Zobacz też
