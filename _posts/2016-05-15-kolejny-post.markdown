@@ -2,6 +2,7 @@
 title: Kolejny post
 subtitle: Podrzędny podtytuł
 layout: blog-post
+permalink: /kolejny-post/
 date: 2014-07-14
 img:
 thumbnail:
