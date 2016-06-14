@@ -4,8 +4,7 @@
 <body>
   {% include blog-header.html %}
   
-  <div class="col-lg-8 col-lg-offset-2">
-    <div>
+    <div class="col-lg-8 col-lg-offset-2">
       <h1>{{ page.title }}</h1>
       <h2>{{ page.subtitle }}</h2>
       <p><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
@@ -13,7 +12,7 @@
     <div class="large text-muted">
     {{ content }}
   </div>
-</div>
+  
   {% include contact.html %}
   {% include footer.html %}
   {% include modals.html %}
