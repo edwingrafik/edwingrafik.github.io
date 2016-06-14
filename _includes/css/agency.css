@@ -6,13 +6,12 @@
 
 body {
     overflow-x: hidden;
-    font-family: Georgia,"Helvetica Neue",Arial,sans-serif;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
 .text-muted {
     #{{ site.data.template.color.muted }};
-    font-weight: 300;
 }
 
 .text-primary {
@@ -20,12 +19,12 @@ body {
 }
 
 p {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.75;
 }
 
 p.large {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 a,
@@ -255,7 +254,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: ##5a5a5a;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -350,11 +349,6 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
-}
-
-.blog-post {
-    margin-left: 30px;
-    text-align: justify;
 }
 
 #portfolio .portfolio-item {
