@@ -4,6 +4,7 @@
 <body>
   {% include blog-header.html %}
   
+<section>
     <div class="col-lg-8 col-lg-offset-2">
       <h1>{{ page.title }}</h1>
       <h2>{{ page.subtitle }}</h2>
@@ -12,6 +13,7 @@
     <div class="large text-muted">
     {{ content }}
   </div>
+</section>
   
   {% include contact.html %}
   {% include footer.html %}
