@@ -276,6 +276,11 @@ header {
     -o-background-size: cover;
 }
 
+header.post {
+    background-image: url('{{ site.baseurl }}/img/bg.jpg');
+}
+
+
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
