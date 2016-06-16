@@ -1,1 +1,31 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+  <header>
+        <div class="container">
+            <div class="intro-text">
+              {% include post-header.html %}
+              <div class="intro-heading">{{ page.title }}</div>
+              <div class="intro-lead-in">{{ page.subtitle }}</div>
+            </div>
+        </div>
+    </header>
+  
+<section class="blog-post">
+  <div class=row>
+    <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+      <p><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+      <div class="large text-muted">
+        {{ content }}
+      </div>
+    </div>
+    </div>
+</section>
+  
+  {% include footer.html %}
+  {% include modals.html %}
+  {% include js.html %}
+  </body>
+</html>
 
