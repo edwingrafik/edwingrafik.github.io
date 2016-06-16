@@ -1,30 +1,37 @@
-<!DOCTYPE html>
-<html>
-{% include head.html %}
-<body>
-  <header>
-        <div class="container">
-            <div class="intro-text">
-              {% include post-header.html %}
-              <div class="intro-heading">{{ page.title }}</div>
-              <div class="intro-lead-in">{{ page.subtitle }}</div>
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Portfolio 01</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/dreams.png" class="img-responsive img-centered" alt="image-alt">
+                            <p>Portfolio pierwsza pozycja. Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </header>
-
-<section class="blog-post">
-  <div class=row>
-    <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
-      <p><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-      <div class="large text-muted">
-        {{ content }}
-      </div>
     </div>
-    </div>
-</section>
-
-  {% include footer.html %}
-  {% include modals.html %}
-  {% include js.html %}
-  </body>
-</html>
