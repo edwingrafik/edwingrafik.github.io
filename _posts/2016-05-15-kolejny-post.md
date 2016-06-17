@@ -47,7 +47,7 @@ I do płuc wysłał z niego cały zapas ducha, I zagrał: róg jak wicher, wirow
 
 Tu przerwał, lecz róg trzymał; wszystkim się zdawało, Że Wojski wciąż gra jeszcze, a to echo grało. Zadął znowu; myśliłbyś, że róg kształty zmieniał I że w ustach Wojskiego to grubiał, to cieniał, Udając głosy zwierząt: to raz w wilczą szyję Przeciągając się, długo, przeraźliwie wyje, Znowu jakby w niedźwiedzie rozwarłszy się garło, Ryknął; potem beczenie żubra wiatr rozdarło. Tu przerwał, lecz róg trzymał; wszystkim się zdawało, Że Wojski wciąż gra jeszcze, a to echo grało. Wysłuchawszy rogowej arcydzieło sztuki, Powtarzały je dęby dębom, bukom buki. 
 
-Dmie znowu: jakby w rogu były setne rogi, Słychać zmieszane wrzaski szczwania, gniewu, trwogi, Strzelców, psiarni i zwierząt; aż Wojski do góry Podniósł róg, i tryumfu hymn uderzył w chmury. 
+> Dmie znowu: jakby w rogu były setne rogi, Słychać zmieszane wrzaski szczwania, gniewu, trwogi, Strzelców, psiarni i zwierząt; aż Wojski do góry Podniósł róg, i tryumfu hymn uderzył w chmury. 
 
 Tu przerwał, lecz róg trzymał; wszystkim się zdawało, Że Wojski wciąż gra jeszcze, a to echo grało. Ile drzew, tyle rogów znalazło się w boru, Jedne drugim pieśń niosą jak z choru do choru. 
 I szła muzyka coraz szersza, coraz dalsza, Coraz cichsza i coraz czystsza, doskonalsza, Aż znikła gdzieś daleko, gdzieś na niebios progu!
