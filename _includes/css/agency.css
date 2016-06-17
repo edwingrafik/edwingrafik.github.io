@@ -57,6 +57,18 @@ h6 {
     font-weight: 700;
 }
 
+.blockquote {
+    max-width: 640px;
+    display: block;
+    border-style: solid;
+    border-color: #FFC83F;
+    border-width: 0 0 0 3px;
+    padding-left: 40px;
+    font-style: italic;
+    font-weight: 100;
+    opacity: 0.8;
+}
+
 .img-centered {
     margin: 0 auto;
 }
