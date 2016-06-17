@@ -26,10 +26,8 @@ comments: true
                                     </strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                    {% if page.comments %}
+                            <button type="button" class="page-scroll btn btn-xl" data-dismiss="modal"><i class="fa fa-times"></i>Wróć</button>
+                        {% if page.comments %}
 <div id="disqus_thread"></div>
 <script>
 /**
@@ -54,5 +52,6 @@ s.setAttribute('data-timestamp', +new Date());
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 {% endif %}
-
+                        </div>
+                    </div>
                 </div>
