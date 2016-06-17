@@ -60,14 +60,13 @@ h6 {
 blockquote {
     max-width: 720px;
     display: block;
-    border-left: 9px;
+    border-left: 5px;
     border-style: solid;
     border-color: #fed136;
     border-top: none;
     border-right: none;
     border-bottom: none;
     padding-left: 40px;
-    font-weight: 800;
     font-style: italic;
 }
 
