@@ -58,18 +58,17 @@ h6 {
 }
 
 blockquote {
-    max-width: 640px;
+    max-width: 720px;
     display: block;
     border-left: 9px;
     border-style: solid;
-    border-color: #fed136;
+    border-left-color: #fed136;
     padding-left: 40px;
-    font-size: 28px;
     font-style: italic;
 }
 
 p.blockquote {
-  font-size: 32px;
+  font-size: 42px;
 }
 
 .img-centered {
