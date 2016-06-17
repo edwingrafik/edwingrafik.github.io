@@ -64,8 +64,10 @@ blockquote {
     border-style: solid;
     border-color: #fed136;
     border-top: none;
+    border-right: none;
+    border-bottom: none;
     padding-left: 40px;
-    font-size: 42px;
+    font-weight: 200;
     font-style: italic;
 }
 
