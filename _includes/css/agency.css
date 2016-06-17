@@ -57,7 +57,7 @@ h6 {
     font-weight: 700;
 }
 
-p.blockquote {
+blockquote {
     max-width: 720px;
     display: block;
     border-left: 9px;
