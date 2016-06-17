@@ -60,12 +60,12 @@ h6 {
 blockquote {
     max-width: 640px;
     display: block;
-    border-left: 6px solid #fed136
+    border-left: 6px
+    border-style: solid;
+    border-color: #fed136;
     padding-left: 40px;
-    font-size: 28px
+    font-size: 28px;
     font-style: italic;
-    font-weight: 100;
-    opacity: 0.8;
 }
 
 .img-centered {
