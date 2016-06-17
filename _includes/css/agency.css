@@ -57,6 +57,17 @@ h6 {
     font-weight: 700;
 }
 
+blockquote {
+    max-width: 640px;
+    display: block;
+    border-left: 6px solid #fed136
+    padding-left: 40px;
+    font-size: 28px
+    font-style: italic;
+    font-weight: 100;
+    opacity: 0.8;
+}
+
 .img-centered {
     margin: 0 auto;
 }
