@@ -57,19 +57,17 @@ h6 {
     font-weight: 700;
 }
 
-blockquote {
+p.blockquote {
     max-width: 720px;
     display: block;
     border-left: 9px;
     border-style: solid;
     border-left-color: #fed136;
     padding-left: 40px;
+    font-size: 42px;
     font-style: italic;
 }
 
-p.blockquote {
-  font-size: 42px;
-}
 
 .img-centered {
     margin: 0 auto;
