@@ -7,7 +7,6 @@
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-    display: block;
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
@@ -21,7 +20,8 @@ body {
 
 p {
     font-size: 18px;
-    line-height: 2,25;
+    line-height: 1,75;
+    display: block;
 }
 
 p.large {
