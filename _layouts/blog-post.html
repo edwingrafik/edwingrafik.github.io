@@ -2,7 +2,7 @@
 <html>
 {% include head.html %}
 <body>
-  <header class=".blog-post">
+  <section class=".blog-post">
         <div class="container">
             <div class="intro-text">
               {% include post-header.html %}
@@ -10,8 +10,8 @@
               <div class="intro-lead-in">{{ page.subtitle }}</div>
             </div>
         </div>
-    </header>
-  
+    </section>
+
 <section class="blog-post">
   <div class=row>
     <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
@@ -22,7 +22,7 @@
     </div>
     </div>
 </section>
-  
+
   {% include contact.html %}
   {% include footer.html %}
   {% include modals.html %}
