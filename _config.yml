@@ -11,14 +11,14 @@ description: "Jestem doświadczonym grafikiem specjalizującym się w tworzeniu 
 people:
 - name: Edwin Gawron
   pic: 1
-  position: Graphic Designer
+  position: Grafik
   social:
     - title: twitter
-      url: #
+      url: https://twitter.com/edwingrafik
     - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+      url: https://www.facebook.com/edwingrafik/
+    - title: linkedin
+      url: https://www.linkedin.com/in/edwin-gawron-6b395998?trk=nav_responsive_tab_profile
 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
@@ -34,12 +34,8 @@ social:
   - title: github
     url: http://github.com/jekyll
 
-# Postal address (add as many lines as necessary)
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
 
 # Build settings
 markdown: kramdown
 permalink: pretty
-jekyll-sitemap
+gems: jekyll-sitemap
