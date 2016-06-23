@@ -8,7 +8,7 @@
     </div>
     <!-- skopiowane z portfolio -->            
 <div class="row">
-    <div class="col-lg-12">
+    <div class="col-lg-12 portfolio-item">
       {% for post in site.posts %}
       <a class="portfolio-link" data-toggle="modal" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}>
         <div class="portfolio-hover">
@@ -18,10 +18,6 @@
         </div>
         <img src="{{ site.baseurl }}/images/{{ post.image }}" class="img-responsive img-centered" alt="blog-edwingrafik">
       </a>
-      <div class="portfolio-caption">
-        <h4>Potfolio02</h4>
-        <p class="text-muted">Druga pozycja</p>
-      </div>
       {% endfor %}
     </div>
   </div>
