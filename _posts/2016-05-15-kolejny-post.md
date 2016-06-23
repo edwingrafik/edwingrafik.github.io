@@ -5,8 +5,7 @@ layout: blog-post
 permalink: /kolejny-post/
 comments: true
 date: 2014-07-14
-img: dreams.png
-thumbnail:
+image: blog-cover.png
 alt: image-alt
 project-date: April 2014
 client:
