@@ -8,7 +8,7 @@
     </div>
     <!-- skopiowane z portfolio -->            
 <div class="row">
-    <div class="col-lg-12 portfolio-item">
+    <div class="col-lg-3 portfolio-item">
       {% for post in site.posts %}
       <a class="portfolio-link" data-toggle="modal" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}>
         <div class="portfolio-hover">
@@ -16,7 +16,7 @@
             <i class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</i>
           </div>
         </div>
-        <img src="{{ site.baseurl }}/images/{{ post.image }}" class="img-responsive img-centered" alt="blog-edwingrafik">
+        <img src="{{ site.baseurl }}/images/{{ post.image }}" class="img-responsive img-centered" alt={{ post.title }}>
       </a>
       {% endfor %}
     </div>
