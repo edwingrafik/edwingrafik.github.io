@@ -8,9 +8,8 @@
     </div>
     <!-- skopiowane z portfolio -->            
 <div class="row">
-    <div class="col-md-4 col-sm-6 portfolio-item">
       {% for post in site.posts %}
-      <a class="portfolio-link" data-toggle="modal" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}>
+      <a class="col-md-4 col-sm-6" "portfolio-link" data-toggle="modal" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}>
         <div class="portfolio-hover">
           <div class="portfolio-hover-content">
             <i class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</i>
