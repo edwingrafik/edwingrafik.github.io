@@ -6,21 +6,8 @@
         <h3 class="section-subheading text-muted">Czytaj na temat brandingu, projektowania dla biznesu i współpracy z branżą kreatywną.</h3>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-4 col-sm-6 portfolio-item">
-        <ul class="post-list">
-          {% for post in site.posts %}
-          <li>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-            <h2>
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            </h2>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
     <!-- skopiowane z portfolio -->            
+<div class="row">
     <div class="col-md-4 col-sm-6 portfolio-item">
       {% for post in site.posts %}
       <a class="portfolio-link" data-toggle="modal" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}>
@@ -29,7 +16,7 @@
             <i class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</i>
           </div>
         </div>
-        <img src="{{ post.img }}" class="img-responsive img-centered" alt="">
+        <img src="{{ site.baseurl }}/images/{{ post.image }}" class="img-responsive img-centered" alt="blog-edwingrafik">
       </a>
       <div class="portfolio-caption">
         <h4>Potfolio02</h4>
@@ -37,5 +24,6 @@
       </div>
       {% endfor %}
     </div>
+  </div>
   </div>
 </section>
