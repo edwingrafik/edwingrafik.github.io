@@ -37,20 +37,19 @@
             </div>
           </div>
         </form>
+        <div class="col-md-12">
+          <h3 class="section-heading">Bądźmy w kontakcie</h3>
+          <ul class="list-inline social-buttons">
+            {% for network in site.social %}
+            <li>
+              <a href="{{ network.url }}">
+                <i class="fa fa-{{ network.title }}"></i>
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
       </div>                
     </div>            
   </div>
-<div class="row">
-  <div class="col-md-12">
-    <ul class="list-inline social-buttons">
-      {% for network in site.social %}
-      <li>
-        <a href="{{ network.url }}">
-          <i class="fa fa-{{ network.title }}"></i>
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-</div>
 </section>
