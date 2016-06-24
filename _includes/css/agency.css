@@ -750,6 +750,7 @@ footer ul.quicklinks {
     text-transform: none;
     font-family: {{ site.data.template.font.primary }};
     line-height: 40px;
+    display: inline;
 }
 
 ul.social-buttons {
