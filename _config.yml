@@ -1,4 +1,4 @@
-url: http://edwingrafik.pl/
+url: https://edwingrafik.github.io/
 baseurl: /start/
 
 # Site settings
@@ -38,4 +38,3 @@ social:
 # Build settings
 markdown: kramdown
 permalink: pretty
-gems: jekyll-sitemap
