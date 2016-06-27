@@ -1,0 +1,41 @@
+url: https://github.com/edwingrafik/start
+baseurl: /start/
+
+# Site settings
+title: edwingrafik
+email: edwingawron@gmail.com
+description: "Jestem doświadczonym grafikiem specjalizującym się w tworzeniu wizerunku firm. Tworzę identyfikacje wizualne, logo, systemy znaków, odświeżam wizerunek. Swoją pracę opieram na znajomości najnowszych trendów i panujących standardów. Robię dobrą robotę."
+
+
+# Team names, titles and social links
+people:
+- name: Edwin Gawron
+  pic: 1
+  position: Grafik
+  social:
+    - title: twitter
+      url: https://twitter.com/edwingrafik
+    - title: facebook
+      url: https://www.facebook.com/edwingrafik/
+    - title: linkedin
+      url: https://www.linkedin.com/in/edwin-gawron-6b395998?trk=nav_responsive_tab_profile
+
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/edwingrafik
+  - title: facebook
+    url: https://www.facebook.com/edwingrafik/
+  - title: instagram
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: linkedin
+    url: http://bitbucket.org/jekyll
+  - title: google-plus
+    url: http://github.com/jekyll
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+gems: jekyll-sitemap
