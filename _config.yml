@@ -1,17 +1,16 @@
 url: https://github.com/edwingrafik/edwingrafik.github.io.git
 baseurl: /edwingrafik.github.io/
-
 # Site settings
+author: Edwin Gawron
 title: edwingrafik
 email: edwingawron@gmail.com
 description: "Jestem doświadczonym grafikiem specjalizującym się w tworzeniu wizerunku firm. Tworzę identyfikacje wizualne, logo, systemy znaków, odświeżam wizerunek. Swoją pracę opieram na znajomości najnowszych trendów i panujących standardów. Robię dobrą robotę."
-
-
+keywords: logo | grafik częstochowa | edwingrafik | projekty do druku | wizytowki firmowe | identyfikacja wizualna | branding | design
 # Team names, titles and social links
 people:
 - name: Edwin Gawron
   pic: 1
-  position: Grafik
+  position: Specjalista w dziedzinie dobrego designu
   social:
     - title: twitter
       url: https://twitter.com/edwingrafik
@@ -19,8 +18,6 @@ people:
       url: https://www.facebook.com/edwingrafik/
     - title: linkedin
       url: https://www.linkedin.com/in/edwin-gawron-6b395998?trk=nav_responsive_tab_profile
-
-
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
@@ -33,8 +30,6 @@ social:
     url: http://bitbucket.org/jekyll
   - title: google-plus
     url: http://github.com/jekyll
-
-
 # Build settings
 markdown: kramdown
 permalink: pretty
