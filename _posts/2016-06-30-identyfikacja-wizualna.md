@@ -1,12 +1,12 @@
 ---
-title: Identyfikacja wizualna
-subtitle: - czy jest potrzebna mojej firmie?
+title: Pierwszy próbny post na moim blogu
+subtitle: Podrzędny podtytuł pierwszego posta
 layout: blog-post
 comments: true
-date: 2016-06-28
-image:
+date: 2014-07-14
+image: http://www.w3schools.com/css/trolltunga.jpg
 alt: image-alt
-project-date: September 2016
+project-date: April 2014
 client:
 category:
 
