@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Segoe UI",Arial,sans-serif;
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
@@ -53,9 +53,7 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
-    font-weight: 700;
 }
 
 blockquote {
@@ -63,7 +61,7 @@ blockquote {
     display: block;
     border-left: 5px;
     border-style: solid;
-    border-color: #fed136;
+    border-color: #26d991;
     border-top: none;
     border-right: none;
     border-bottom: none;
