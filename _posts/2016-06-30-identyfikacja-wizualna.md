@@ -1,6 +1,6 @@
 ---
-title: Pierwszy próbny post na moim blogu
-subtitle: Podrzędny podtytuł pierwszego posta
+title: Identyfikacja wizualna
+subtitle: czy jest potrzebna mojej firmie?
 layout: blog-post
 comments: true
 date: 2014-07-14
