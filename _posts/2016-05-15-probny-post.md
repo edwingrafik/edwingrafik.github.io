@@ -1,6 +1,6 @@
 ---
-title: Pierwszy próbny post na moim blogu
-subtitle: Podrzędny podtytuł pierwszego posta
+title: Co umieścić na wizytówce?
+subtitle: Wizytowka firmowa, ktora cię wyróżni.
 layout: blog-post
 comments: true
 date: 2014-07-14
