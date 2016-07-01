@@ -1,10 +1,10 @@
-url: https://github.com/edwingrafik/edwingrafik.github.io.git
-baseurl: /edwingrafik.github.io/
+url: http://edwingrafik.pl/
+baseurl: /edwingrafik.pl/
 # Site settings
 author: Edwin Gawron
 title: edwingrafik | projekty graficzne częstochowa | identyfikacja wizualna
 email: edwingawron@gmail.com
-description: "Jestem doświadczonym grafikiem specjalizującym się w tworzeniu wizerunku firm. Tworzę identyfikacje wizualne, logo, systemy znaków, odświeżam wizerunek. Swoją pracę opieram na znajomości najnowszych trendów i panujących standardów. Robię dobrą robotę."
+description: "Jestem doświadczonym grafikiem specjalizującym się w tworzeniu wizerunku firm. Tworzę identyfikacje wizualne, logo, systemy znaków, odświeżam wizerunek. Projekty opieram na znajomości najnowszych trendów i panujących standardów."
 keywords: logo | grafik częstochowa | edwingrafik | projekty do druku | wizytowki firmowe | identyfikacja wizualna | branding | design
 # Team names, titles and social links
 people:
