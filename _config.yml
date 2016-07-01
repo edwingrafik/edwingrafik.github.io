@@ -35,4 +35,6 @@ markdown: kramdown
 permalink: pretty
 gems:
   - jekyll-sitemap
-  
+# Google services
+google_analytics: UA-80178621-1
+
