@@ -61,7 +61,7 @@ blockquote {
     display: block;
     border-left: 5px;
     border-style: solid;
-    border-color: #26d991;
+    border-color: #{{ site.data.template.color.primary }};
     border-top: none;
     border-right: none;
     border-bottom: none;
