@@ -7,5 +7,5 @@ color:
 
 # Font Families
 font:
-  primary: 'Segoe UI",Arial,sans-serif'
+  primary: '"Segoe UI",Arial,sans-serif'
   secondary: 'Georgia,Arial,sans-serif'
