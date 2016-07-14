@@ -3,6 +3,7 @@ title: Jeszcze jeden post
 subtitle: ile to kosztuje i dlaczego tak drogo?
 layout: blog-post
 comments: true
+published: false
 date: 2014-07-14
 image: http://www.w3schools.com/css/trolltunga.jpg
 alt: image-alt
