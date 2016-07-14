@@ -32,7 +32,7 @@ Co mu się też śni  co tam przepływa pod czarującą płaszczyzną spadzisteg
 
 Oto tajemnica niezbadana poczęła go w niej. Oto był maleńki i niedołężny  kruszyna cielesna, byt zależny jedynie od niej  cząstka jej całości, jak gdyby nowy organ jej ciała, ręka lub noga… Wykarmiła go, wypielęgnowała, wyhodowała. Z roku na rok rósł w jej rękach, w jej oczach, w jej objęciu. Każdy dzień jego zależał od niej, z niej się poczynał, na niej się kończył. Siły swe przelała, życie swe przesączyła kropla po kropli w jego siły. Nastawiła i wyprostowała drogi jego krwi. Nadała mu głos, krzyk, śpiew. A oto teraz obcy się staje i złowieszczy. Obraca się przeciwko niej. Z niego płynie na nią jakieś złe. MiłośćBezgraniczna miłość ku niemu przekształca się i przeradza na krzywdę słabego jej ciała i ducha omdlałego. Gdyby go tak bezgranicznie nie kochała, cóż by jej było, choćby się psuł i, gdzie chce, hasał? Ale on bije w miłość, targa tą siłą, którą go obdarzył jej słaby ostatek mocy”.
 
-<iframe src="https://www.google.com/maps/d/embed?mid=1ELysbd_HcyENvsuK5auBFbFpwZ0" width="640" height="480"></iframe>
+<iframe src="https://www.google.pl/maps/place/Aleksandra+Br%C3%BCcknera+22,+Cz%C4%99stochowa/@50.8286668,19.1495879,17z/data=!3m1!4b1!4m5!3m4!1s0x4710b447b490957f:0x3d67332b0f2219d8!8m2!3d50.8286668!4d19.1517766" width=100%></iframe>
 
 
 {% if page.comments %}
