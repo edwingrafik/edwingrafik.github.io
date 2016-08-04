@@ -4,7 +4,7 @@ subtitle: czy jest potrzebna mojej firmie?
 layout: blog-post
 comments: true
 date: 2014-07-14
-image: http://www.w3schools.com/css/trolltunga.jpg
+image: depositphotos_12064091-Landscape.jpg
 alt: image-alt
 project-date: April 2014
 client:
