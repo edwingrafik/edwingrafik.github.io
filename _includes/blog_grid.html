@@ -7,9 +7,9 @@
       </div>
     </div>
     <!-- skopiowane z portfolio -->
+    {% for post in site.posts %}
     <div class="row">
-      <div class="col-md-4 col-sm-6 portfolio-item">
-        {% for post in site.posts %}
+      <div class="col-md-12 col-sm-6 portfolio-item">
       <a class="portfolio-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}>
         <div class="portfolio-hover">
           <div class="portfolio-hover-content">
@@ -19,7 +19,7 @@
         <img src="{{ site.baseurl }}/img/{{ post.image }}" class="img-responsive img-centered" alt={{ post.title }}>
       </a>      
     </div>
-    {% endfor %}
     </div>
+    {% endfor %}
   </div>
 </section>
