@@ -4,7 +4,7 @@ subtitle: ile to kosztuje i dlaczego tak drogo?
 layout: blog-post
 comments: true
 date: 2014-07-14
-image: http://www.w3schools.com/css/trolltunga.jpg
+image: logo.png
 alt: image-alt
 project-date: April 2014
 client:
