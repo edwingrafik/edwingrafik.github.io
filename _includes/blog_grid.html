@@ -10,14 +10,14 @@
     {% for post in site.posts %}
     <div class="row">
       <div class="col-md-12 col-sm-6 portfolio-item">
-      <a class="portfolio-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}>
+      
         <div class="portfolio-hover">
           <div class="portfolio-hover-content">
-            <i class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</i>
+            <a class="post-meta"> href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </div>
         </div>
         <img src="{{ site.baseurl }}/img/{{ post.image }}" class="img-responsive img-centered" alt={{ post.title }}>
-      </a>      
+        
     </div>
     </div>
     {% endfor %}
