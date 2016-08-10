@@ -2,28 +2,14 @@
 <html lang="pl-PL">
 {% include head.html %}
 <body>
-  <header>
-        <div class="container">
-            <div class="intro-text">
-              {% include blog-header.html %}
-              <h2>{{ page.title }}</h2>
-              <h2>{{ page.subtitle }}</h2>
-            </div>
-        </div>
-    </header>
-
+  {% include blog-header.html %}
+  <h2>{{ page.title }}</h2>
+  <h2>{{ page.subtitle }}</h2>
 <section class="blog-post">
-  <div class=row>
-    <div class="col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
-      <p><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-      <div class="large text-muted">
-        {{ content }}
-      </div>
-      {% include share-page.html %}
-    </div>
-    </div>
+  <p><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+  {{ content }}
 </section>
-
+  {% include share-page.html %}
   {% include footer.html %}
   {% include modals.html %}
   {% include js.html %}
