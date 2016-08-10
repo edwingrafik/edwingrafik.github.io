@@ -10,13 +10,11 @@
         <h2>{{ page.title }}</h2>
         <h2>{{ page.subtitle }}</h2>
         <hr>
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>            
         
           <p class="large text-muted">
-            <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>            
-          </p>
-          <div class="large text-muted">
             {{ content }}
-          </div>
+          </p>
         
       </div>
     </div>
