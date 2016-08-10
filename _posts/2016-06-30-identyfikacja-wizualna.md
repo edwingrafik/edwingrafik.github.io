@@ -1,7 +1,7 @@
 ---
 title: Identyfikacja wizualna
 subtitle: czy jest potrzebna mojej firmie?
-layout: porfolio-post
+layout: blog-post
 comments: true
 date: 2014-07-14
 image: depositphotos_12064091-Landscape.jpg
