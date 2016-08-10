@@ -11,7 +11,10 @@
         <h2>{{ page.subtitle }}</h2>
         <hr>
         
-          <p class="large text-muted"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}{{ content }}</p>
+          <p class="large text-muted">
+            <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>            
+            {{ content }}
+          </p>
         
       </div>
     </div>
