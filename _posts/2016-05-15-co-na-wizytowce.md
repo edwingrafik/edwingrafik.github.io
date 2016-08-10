@@ -4,7 +4,7 @@ subtitle: Wizytowka firmowa, ktora cię wyróżni.
 layout: blog-post
 comments: true
 date: 2014-07-14
-image: http://www.w3schools.com/css/trolltunga.jpg
+image: wizytowka.png
 alt: image-alt
 project-date: April 2014
 client:
