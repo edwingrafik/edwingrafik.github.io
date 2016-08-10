@@ -1,7 +1,7 @@
 ---
 title: Identyfikacja wizualna
 subtitle: Czy jest potrzebna mojej firmie?
-layout: blog-post
+layout: portfolio-post
 comments: true
 date: 2014-07-14
 image: identyfikacja.png
