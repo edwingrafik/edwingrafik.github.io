@@ -17,11 +17,11 @@
             </div>
           </div>
           <img src="{{ site.baseurl }}/img/{{ post.image }}" class="img-responsive img-centered" alt={{ post.title }}>
+          <div class="portfolio-caption">
+            <p class="text-muted">{{ post.subtitle }}</p>
+          </div>
         </a>      
       </div>
-      </div>
-      <div class="portfolio-caption">
-        <p class="text-muted">{{ post.subtitle }}</p>
       </div>
     {% endfor %}
   </div>
