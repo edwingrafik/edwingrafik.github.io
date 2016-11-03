@@ -3,6 +3,7 @@ title: Projekt logo
 subtitle: ile to kosztuje i dlaczego tak drogo?
 layout: blog-post
 comments: true
+published: false
 date: 2014-07-14
 image: logo.png
 alt: image-alt
