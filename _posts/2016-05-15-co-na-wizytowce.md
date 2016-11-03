@@ -3,6 +3,7 @@ title: Co umieścić na wizytówce?
 subtitle: Wizytowka firmowa, ktora cię wyróżni.
 layout: blog-post
 comments: true
+published: false
 date: 2014-07-14
 image: wizytowka.png
 alt: image-alt
