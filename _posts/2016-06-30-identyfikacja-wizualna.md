@@ -3,7 +3,7 @@ title: Identyfikacja wizualna
 subtitle: Czy jest potrzebna mojej firmie?
 layout: blog-post
 comments: true
-date: 2014-07-14
+date: 201-11-03
 image: identyfikacja.png
 alt: image-alt
 project-date: April 2014
