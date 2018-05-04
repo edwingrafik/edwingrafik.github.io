@@ -1,84 +1,91 @@
 <style>
-	.container {
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
+	body {
+  background: #000;
+}
+.preloader-1 {
+  margin: 100px auto 0;
+  width: 66px;
+  height: 12px;
 }
 
-.item {
-  width: 100px;
-  height: 100px;
-  position: absolute;
+.preloader-2 {
+  margin: 120px auto 0;
 }
 
-.item-1 {
-  background-color: #FA5667;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  animation: item-1_move 1.8s cubic-bezier(.6,.01,.4,1) infinite;
+div {
+  color: #fff;
+  margin: 5px 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 10px;
+  letter-spacing: 2px;
 }
 
-.item-2 {
-  background-color: #7A45E5;
-  top: 0;
-  right: 0;
-  animation: item-2_move 1.8s cubic-bezier(.6,.01,.4,1) infinite;
+.preloader-1 .line {
+  width: 1px;
+  height: 12px;
+  background: #fff;
+  margin: 0 1px;
+  display: inline-block;
+  animation: opacity-1 1000ms infinite ease-in-out;
 }
 
-.item-3 {
-  background-color: #1B91F7;
-  bottom: 0;
-  right: 0;
-  z-index: 1;
-  animation: item-3_move 1.8s cubic-bezier(.6,.01,.4,1) infinite;
+.preloader-2 .line {
+  width: 1px;
+  height: 12px;
+  background: #fff;
+  margin: 0 1px;
+  display: inline-block;
+  animation: opacity-2 1000ms infinite ease-in-out;
 }
 
-.item-4 {
-  background-color: #FAC24C;
-  bottom: 0;
-  left: 0;
-  animation: item-4_move 1.8s cubic-bezier(.6,.01,.4,1) infinite;
+.preloader-1 .line-1, .preloader-2 .line-1 { animation-delay: 800ms; }
+.preloader-1 .line-2, .preloader-2 .line-2 { animation-delay: 600ms; }
+.preloader-1 .line-3, .preloader-2 .line-3 { animation-delay: 400ms; }
+.preloader-1 .line-4, .preloader-2 .line-4 { animation-delay: 200ms; }
+.preloader-1 .line-6, .preloader-2 .line-6 { animation-delay: 200ms; }
+.preloader-1 .line-7, .preloader-2 .line-7 { animation-delay: 400ms; }
+.preloader-1 .line-8, .preloader-2 .line-8 { animation-delay: 600ms; }
+.preloader-1 .line-9, .preloader-2 .line-9 { animation-delay: 800ms; }
+
+@keyframes opacity-1 { 
+  0% { 
+    opacity: 1;
+  }
+  50% { 
+    opacity: 0;
+  }
+  100% { 
+    opacity: 1;
+  }  
 }
 
-@keyframes item-1_move {
-  0%, 100% {transform: translate(0, 0)} 
-  25% {transform: translate(0, 100px)} 
-  50% {transform: translate(100px, 100px)} 
-  75% {transform: translate(100px, 0)} 
-}
-
-@keyframes item-2_move {
-  0%, 100% {transform: translate(0, 0)} 
-  25% {transform: translate(-100px, 0)} 
-  50% {transform: translate(-100px, 100px)} 
-  75% {transform: translate(0, 100px)} 
-}
-
-@keyframes item-3_move {
-  0%, 100% {transform: translate(0, 0)} 
-  25% {transform: translate(0, -100px)} 
-  50% {transform: translate(-100px, -100px)} 
-  75% {transform: translate(-100px, 0)} 
-}
-
-@keyframes item-4_move {
-  0%, 100% {transform: translate(0, 0)} 
-  25% {transform: translate(100px, 0)} 
-  50% {transform: translate(100px, -100px)} 
-  75% {transform: translate(0, -100px)} 
+@keyframes opacity-2 { 
+  0% { 
+    opacity: 1;
+    height: 15px;
+  }
+  50% { 
+    opacity: 0;
+    height: 12px;
+  }
+  100% { 
+    opacity: 1;
+    height: 15px;
+  }  
 }
 </style>
 
-<div class="container">
-  <h2>Strona w budowie</h2>
-  <div class="item item-1"></div>
-  <div class="item item-2"></div>
-  <div class="item item-3"></div>
-  <div class="item item-4"></div>
+<div class="preloader-2">
+  <span class="line line-1"></span>
+  <span class="line line-2"></span>
+  <span class="line line-3"></span>
+  <span class="line line-4"></span>
+  <span class="line line-5"></span>
+  <span class="line line-6"></span>
+  <span class="line line-7"></span>
+  <span class="line line-8"></span>
+  <span class="line line-9"></span>
+  <div>Strona w budowie</div>
 </div>
